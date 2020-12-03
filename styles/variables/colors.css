@@ -1,0 +1,10 @@
+:root {
+  /* COLOR */
+  --accent: rgb(102, 80, 239);
+  --black: rgb(30, 33, 43);
+  --green: rgb(88, 205, 82);
+  --grey: rgb(204, 213, 225);
+  --orange: rgb(255, 142, 5);
+  --red: rgb(245, 72, 63);
+  --white: rgb(255, 255, 255);
+}
