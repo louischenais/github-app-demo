@@ -1,0 +1,34 @@
+ {
+  "repository": "@specifyapp/Specify-Demo",
+  "rules": [
+    {
+      "path": "styles/variables/colors.css",
+      "filter": {
+        "types": [
+          "color"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "kebabcasify",
+          "options": {
+            "keys": [
+              "name"
+            ]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    },
+    {
+      "path": "assets/icons",
+      "filter": {
+        "types": [
+          "vector"
+        ]
+      }
+    }
+  ]
+}
